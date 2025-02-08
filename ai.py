@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # کلید API و URL برای دریافت اخبار
-API_KEY = "fa5ecc572a4c444e9f320d7b1b75edb5"
+API_KEY = "api_key"
 URL = f"https://newsapi.org/v2/top-headlines?country=us&apiKey={API_KEY}"
 
 # تابعی برای دریافت اخبار برتر امروز
